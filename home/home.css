@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+#input{
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+}
+#create{
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="login-box">
+      <div class="lb-header">
+        <a href="#" class="active" id="login-box-link">Login</a>
+        <a href="#" id="signup-box-link">Sign Up</a>
+      </div>
+      <div class="social-login">
+        <a href="#">
+          <i class="fa fa-facebook fa-lg"></i>
+          Login in with facebook
+        </a>
+        <a href="#">
+          <i class="fa fa-google-plus fa-lg"></i>
+          log in with Google
+        </a>
+      </div>
+      <form class="email-login">
+        <div class="u-form-group">
+          <input type="email" id="sign-in-email" placeholder="Email" />
+        </div>
+        <div class="u-form-group">
+          <input id="sign-in-password" type="password" placeholder="Password" />
+        </div>
+        <div class="u-form-group">
+          <button id="sign-in-btn">Log in</button>
+        </div>
+        <div class="u-form-group">
+          <a href="./forgot.html" class="forgot-password">Forgot password?</a>
+        </div>
+      </form>
+      <form class="email-signup">
+        <div class="u-form-group">
+          <input id="sign-up-name" type="text" placeholder="Name" required />
+        </div>
+        <div class="u-form-group">
+          <input id="sign-up-email" type="email" placeholder="Email" required/>
+        </div>
+        <div class="u-form-group">
+          <input id="sign-up-password" type="password" placeholder="Password" required />
+        </div>
+        <div class="u-form-group">
+          <button  id="sign-up-btn">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
